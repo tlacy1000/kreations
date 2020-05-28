@@ -54,12 +54,12 @@ ul.social-icons li a {
 }
 
 ul.social-icons li a:hover {
-	background-color: #f33f3f;
+	background-color: #7b276f;
 	color: #fff;
 }
 
 a.filled-button {
-	background-color: #f33f3f;
+	background-color: #7b276f;
 	color: #fff;
 	font-size: 14px;
 	text-transform: capitalize;
@@ -78,13 +78,13 @@ a.filled-button:hover {
 .section-heading {
 	text-align: left;
 	margin-bottom: 60px;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #7b276f;
 }
 
 .section-heading h2 {
 	font-size: 28px;
 	font-weight: 400;
-	color: #1e1e1e;
+	color: #7b276f;
 	margin-bottom: 15px;
 }
 
@@ -109,7 +109,7 @@ a.filled-button:hover {
 }
 
 .page-heading .text-content h4 {
-	color: #f33f3f;
+	color: #fff;
 	font-size: 22px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -125,7 +125,7 @@ a.filled-button:hover {
 
 #preloader {
   overflow: hidden;
-  background: #f33f3f;
+  background: #fff;
   left: 0;
   right: 0;
   top: 0;
@@ -209,7 +209,7 @@ header {
 	z-index: 99999;
 	width: 100%;
 	height: 80px;
-	background-color: #232323;
+	background-color: #eee6e3;
 	-webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
@@ -224,29 +224,30 @@ header .navbar {
 .background-header {
 	top: 0;
 	position: fixed;
-	background-color: #fff!important;
+	background-color: #eee6e3!important;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
-	color: #121212!important;
+	color: #eee6e3!important;
 }
 .background-header .navbar-nav a.nav-link {
-	color: #1e1e1e!important;
+	color: #7b276f!important;
 }
 .background-header .navbar-nav .nav-link:hover,
 .background-header .navbar-nav .active>.nav-link,
 .background-header .navbar-nav .nav-link.active,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #f33f3f!important;
+	color: #d91d75!important;
 }
 .navbar .navbar-brand {
 	float: 	left;
 	margin-top: -12px;
 	outline: none;
 }
+/* Below is Kash's */
 .navbar .navbar-brand h2 {
-	color: #fff;
+	color: #d91d75;
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: 700;
@@ -257,7 +258,7 @@ header .navbar {
 }
 .navbar .navbar-brand h2 em {
 	font-style: normal;
-	color: #f33f3f;
+	color: #7b276f;
 }
 #navbarResponsive {
 	z-index: 999;
@@ -284,7 +285,7 @@ header .navbar {
 .navbar .navbar-nav .show>.nav-link {
 	color: #fff;
 	padding-bottom: 25px;
-	border-bottom: 3px solid #f33f3f;
+	border-bottom: 3px solid #7b276f;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -301,7 +302,7 @@ header .navbar {
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
-	color: #f33f3f;
+	color: #7b276f;
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'FontAwesome';
@@ -353,7 +354,7 @@ header .navbar {
 }
 
 .banner .text-content h4 {
-	color: #f33f3f;
+	color: #7b276f;
 	font-size: 22px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -413,7 +414,7 @@ header .navbar {
 	text-transform: uppercase;
 	font-size: 13px;
 	font-weight: 700;
-	color: #f33f3f;
+	color: #7b276f;
 }
 
 .product-item {
@@ -433,7 +434,7 @@ header .navbar {
 
 .product-item .down-content h4 {
 	font-size: 17px;
-	color: #1a6692;
+	color: #d91d75;
 	margin-bottom: 20px;
 }
 
@@ -454,7 +455,7 @@ header .navbar {
 }
 
 .product-item .down-content ul li i {
-	color: #f33f3f;
+	color: #7b276f;
 	font-size: 14px;
 }
 
@@ -463,7 +464,7 @@ header .navbar {
 	right: 30px;
 	bottom: 30px;
 	font-size: 13px;
-	color: #f33f3f;
+	color: #7b276f;
 	font-weight: 500;
 }
 
@@ -502,7 +503,7 @@ header .navbar {
 
 .best-features h4 {
 	font-size: 17px;
-	color: #1a6692;
+	color: #d91d75;
 	margin-bottom: 20px;
 }
 
@@ -537,11 +538,11 @@ header .navbar {
 }
 
 .best-features ul.featured-list li a:hover {
-	color: #f33f3f;
+	color: #7b276f;
 }
 
 .best-features ul.featured-list li a:hover::before {
-	background-color: #f33f3f;
+	background-color: #7b276f;
 }
 
 .best-features .filled-button {
@@ -600,7 +601,7 @@ footer .inner-content p {
 }
 
 footer .inner-content p a {
-	color: #f33f3f;
+	color: #7b276f;
 	margin-left: 3px;
 }
 
@@ -633,7 +634,7 @@ footer .inner-content p a {
 
 .products .filters ul li.active,
 .products .filters ul li:hover {
-  color: #f33f3f;
+  color: #7b276f;
 }
 
 .products ul.pages {
@@ -660,8 +661,8 @@ footer .inner-content p a {
 
 .products ul.pages li a:hover,
 .products ul.pages li.active a {
-	background-color: #f33f3f;
-	border-color: #f33f3f;
+	background-color: #7b276f;
+	border-color: #7b276f;
 	color: #fff;
 }
 
@@ -715,7 +716,7 @@ footer .inner-content p a {
 
 .team-member .thumb-container .hover-effect .hover-content ul.social-icons li a:hover {
 	background-color: #fff;
-	color: #f33f3f;
+	color: #7b276f;
 }
 
 .team-member:hover .hover-effect {
@@ -732,7 +733,7 @@ footer .inner-content p a {
 .team-member .down-content span {
 	display: block;
 	font-size: 13px;
-	color: #f33f3f;
+	color: #7b276f;
 	font-weight: 500;
 	margin-bottom: 20px;
 }
@@ -766,7 +767,7 @@ footer .inner-content p a {
 	display: inline-block;
 	text-align: center;
 	line-height: 100px;
-	background-color: #f33f3f;
+	background-color: #7b276f;
 	color: #fff;
 	font-size: 32px;
 }
@@ -874,7 +875,7 @@ footer .inner-content p a {
 }
 
 .contact-form button.filled-button {
-	background-color: #f33f3f;
+	background-color: #7b276f;
 	color: #fff;
 	font-size: 14px;
 	text-transform: capitalize;
@@ -906,11 +907,11 @@ footer .inner-content p a {
 }
 
 .accordion a:hover {
-	color: #f33f3f!important;
+	color: #7b276f!important;
 }
 
 .accordion a.active {
-  color: #f33f3f!important;
+  color: #7b276f!important;
 }
 
 .accordion li .content {
@@ -1039,7 +1040,7 @@ footer .inner-content p a {
 	.navbar .navbar-nav .nav-link.active,
 	.navbar .navbar-nav .nav-link.show,
 	.navbar .navbar-nav .show>.nav-link {
-		color: #f33f3f!important;
+		color: #7b276f!important;
 		border-bottom: none!important;
 		padding-bottom: 15px;
 	}
